@@ -199,9 +199,6 @@ class MainFunction():
     if not isinstance(level,int):
       print(level)
 
-#      expr1 = lambda x:x if x.startswith("http://") or x.startswith("https://") else "https://"+x
-#      expr2 = lambda y:y if y.startswith("http://") or y.startswith("https://") else "https://"+y
-
 if __name__ == "__main__":
 
   parser = OptionParser()
